@@ -5,9 +5,14 @@ import { SliderDemo } from '@/components/slider'
 import Size from "@/components/size";
 import React from 'react'
 import { DressStyle } from '@/components/dressStyle';
-import NewA1 from "@/public/new-arrival-1.png";
-import NewA3 from "@/public/new-arrival-1.png";
-import NewA4 from "@/public/new-arrival-1.png";
+import NewA1 from "@/public/product1.png";
+import NewA2 from "@/public/product2.png";
+import NewA3 from "@/public/product3.png";
+import NewA4 from "@/public/product4.png";
+import TopS1 from "@/public/sell1.png";
+import TopS2 from "@/public/sell2.png";
+import TopS3 from "@/public/sell3.png";
+import TopS4 from "@/public/sell4.png";
 import { Star } from "lucide-react";
 import { StarHalf } from "lucide-react";
 import { ChevronRight } from "lucide-react";
@@ -60,7 +65,7 @@ function Category() {
               <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$120</p>
             </div>
             <div>
-              <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={TopS3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Checkered Shirt</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -73,7 +78,7 @@ function Category() {
               <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$180</p>
             </div>
             <div className="lg:h-[298px]">
-              <Image src={NewA4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Sleeve Striped T-shirt</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -89,7 +94,7 @@ function Category() {
       
           <div className="flex gap-5 mt-10 max-sm:overflow-scroll justify-center max-sm:flex-wrap">
             <div>
-              <Image src={NewA1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={NewA4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">T-shirt with Tape Details</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -102,7 +107,7 @@ function Category() {
               <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$120</p>
             </div>
             <div>
-              <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={TopS1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Checkered Shirt</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -115,7 +120,7 @@ function Category() {
               <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$180</p>
             </div>
             <div className="lg:h-[298px]">
-              <Image src={NewA4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={TopS2} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Sleeve Striped T-shirt</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -131,7 +136,7 @@ function Category() {
       
           <div className="flex gap-5 mt-10 max-sm:overflow-scroll justify-center max-sm:flex-wrap">
             <div>
-              <Image src={NewA1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={TopS3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">T-shirt with Tape Details</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />
@@ -144,7 +149,7 @@ function Category() {
               <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$120</p>
             </div>
             <div>
-              <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+              <Image src={NewA1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
               <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Checkered Shirt</h4>
               <div className="flex items-center mt-1 md:mt-2">
                 <Star size={18.5} fill="#ffc633" color="#ffc633" />

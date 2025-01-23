@@ -1,15 +1,14 @@
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import { Mail } from "lucide-react";
 import { Twitter } from "lucide-react";
 import { Facebook } from "lucide-react";
 import { Instagram } from "lucide-react";
 import { Github } from "lucide-react";
-// import ApplePay from "@/public/applePay.svg";
-// import GooglePay from "@/public/googlePay.svg";
-// import Paypal from "@/public/paypal.svg";
-// import Mastercard from "@/public/mastercard.svg";
-// import Visa from "@/public/Visa.svg";
+import ApplePay from "@/public/applepay.png";
+import GooglePay from "@/public/gpay.png";
+import Paypal from "@/public/paypal.png";
+import Mastercard from "@/public/Badge.png";
 
 function Footer() {
     return(
@@ -81,11 +80,10 @@ function Footer() {
             <div className="lg:w-[90%] flex flex-wrap justify-center md:justify-between text-center m-auto pb-8">
                 <p className="lg:w-[269px] h-[19px] text-sm font-normal leading-[18px] text-gray-600 max-sm:pb-8">© 2000-2024, All rights reserved</p>
                 <div className="flex flex-wrap gap-2">
-                    {/* <Image src={ApplePay} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/> */}
-                    {/* <Image src={GooglePay} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/> */}
-                    {/* <Image src={Paypal} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/> */}
-                    {/* <Image src={Mastercard} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/> */}
-                    {/* <Image src={Visa} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/> */}
+                    <Image src={ApplePay} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/>
+                    <Image src={GooglePay} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/>
+                    <Image src={Paypal} width={40} height={10} alt="Applepay" className="bg-white p-2 rounded-lg"/>
+                    <Image src={Mastercard} width={40} height={10} alt="Applepay" />
                 </div>
             </div>
         </footer>

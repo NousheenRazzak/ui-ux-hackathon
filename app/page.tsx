@@ -1,24 +1,24 @@
 import Image from "next/image";
 // import { integralCF } from "@/app/fonts";
 import Heroimage from "@/public/hero-image.png";
-// import Versace from "@/public/versace-logo.svg";
-// import Zara from "@/public/zara-logo.svg";
-// import Gucci from "@/public/gucci-logo.svg";
-// import Prada from "@/public/prada-logo.svg";
-// import Calvin from "@/public/calvin-klein-logo.svg";
-import NewA1 from "@/public/new-arrival-1.png";
-import NewA2 from "@/public/new-arrival-2.png";
-import NewA3 from "@/public/new-arrival-3.png";
-import NewA4 from "@/public/new-arrival-4.png";
-import TopS1 from "@/public/new-arrival-1.png";
-import TopS2 from "@/public/new-arrival-2.png";
-import TopS3 from "@/public/new-arrival-3.png";
-import TopS4 from "@/public/new-arrival-4.png";
-// import { Star } from "lucide-react";
-// import { StarHalf } from "lucide-react";
-// import { MoveLeft } from "lucide-react";
-// import { MoveRight } from "lucide-react";
-// import { CircleCheck } from "lucide-react";
+import Versace from "@/public/versace.png";
+import Zara from "@/public/zaraa.png";
+import Gucci from "@/public/gucci.png";
+import Prada from "@/public/pradaa.png";
+import Calvin from "@/public/calvinklein.png";
+import NewA1 from "@/public/product1.png";
+import NewA2 from "@/public/product2.png";
+import NewA3 from "@/public/product3.png";
+import NewA4 from "@/public/product4.png";
+import TopS1 from "@/public/sell1.png";
+import TopS2 from "@/public/sell2.png";
+import TopS3 from "@/public/sell3.png";
+import TopS4 from "@/public/sell4.png";
+import { Star } from "lucide-react";
+import { StarHalf } from "lucide-react";
+import { MoveLeft } from "lucide-react";
+import { MoveRight } from "lucide-react";
+import { CircleCheck } from "lucide-react";
 import Casual from "@/public/dress-style-1.png";
 import Formal from "@/public/dress-style-2.png";
 import Party from "@/public/dress-style-3.png";
@@ -39,11 +39,11 @@ export default function Home() {
     </section>
 
     <section className="flex flex-wrap items-center justify-center lg:h-[122px] bg-black gap-7 lg:gap-14 px-4 py-6">
-      {/* <Image src={Versace} width={200} height={200} alt="versace" className="max-sm:w-28"/> */}
-      {/* <Image src={Zara} width={150} height={150} alt="zara" className="max-sm:w-16"/> */}
-      {/* <Image src={Gucci} width={200} height={200} alt="gucci" className="max-sm:w-28"/> */}
-      {/* <Image src={Prada} width={200} height={200} alt="prada" className="max-sm:w-28"/> */}
-      {/* <Image src={Calvin} width={200} height={200} alt="clavinklein" className="max-sm:w-32"/> */}
+      <Image src={Versace} width={200} height={200} alt="versace" className="max-sm:w-28"/>
+      <Image src={Zara} width={150} height={150} alt="zara" className="max-sm:w-16"/>
+      <Image src={Gucci} width={200} height={200} alt="gucci" className="max-sm:w-28"/>
+      <Image src={Prada} width={200} height={200} alt="prada" className="max-sm:w-28"/>
+      <Image src={Calvin} width={200} height={200} alt="clavinklein" className="max-sm:w-32"/>
     </section>
 
     <section className="m-auto my-10 lg:my-24 border-b-2 border-gray-300">
@@ -55,11 +55,11 @@ export default function Home() {
         <Image src={NewA1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">T-shirt with Tape Details</h4>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.5/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$120</p>
@@ -68,10 +68,10 @@ export default function Home() {
         <Image src={NewA2} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl md:h-[298px]"/>
         <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Skinny Fit Jeans</h4>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>3.5/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$240 <span className="text-gray-400 line-through ms-2">$260</span><span className="bg-red-100 text-red-600 text-sm rounded-3xl ms-2 px-3 py-2">-20%</span></p>
@@ -80,11 +80,11 @@ export default function Home() {
         <Image src={NewA3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Checkered Shirt</h4>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.5/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$180</p>
@@ -93,19 +93,16 @@ export default function Home() {
         <Image src={NewA4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <h4 className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Sleeve Striped T-shirt</h4>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.5/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 flex flex-wrap items-center mt-1 md:mt-2">$130 <span className="text-gray-400 line-through ms-2">$160</span><span className="bg-red-100 text-red-600 text-sm rounded-3xl ms-2 px-3 py-2">-30%</span></p>
       </div>
     </div>
-    {/* <div className="flex justify-center">
-    <button className="w-full text-center text-base font-medium border-[1px] border-black rounded-full my-10">View All</button>
-    </div> */}
     <div className="w-full px-4 sm:px-0 text-center my-10">
       <a className="w-full inline-block sm:w-[218px] px-[54px] py-4 border rounded-full hover:bg-black hover:text-white text-black transition-all font-medium text-sm sm:text-base border-black/10" href="/shop#new-arrivals">View All</a>
     </div>
@@ -120,11 +117,11 @@ export default function Home() {
         <Image src={TopS1} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Vertical Striped Shirt</p>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <span>5.0/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2 flex flex-wrap">$212 <span className="text-gray-400 line-through ms-2">$232</span><span className="bg-red-300 text-red-500 ms-2 text-sm">-20%</span>
@@ -134,10 +131,10 @@ export default function Home() {
         <Image src={TopS2} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Courage Graphic T-shirt</p>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.0/5</span>
         </div>
         <p className="lg:lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$145</p>
@@ -146,9 +143,9 @@ export default function Home() {
         <Image src={TopS3} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
         <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Loose Fit Bermuda Shorts</p>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <span>3.0/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$80</p>
@@ -157,11 +154,11 @@ export default function Home() {
         <Image src={TopS4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl md:h-[298px]"/>
         <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Faded Skinny Jeans</p>
         <div className="flex items-center mt-1 md:mt-2">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
           <span>4.5/5</span>
         </div>
         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$210</p>
@@ -192,42 +189,42 @@ export default function Home() {
       <div className="flex justify-between m-auto">
         <h2 className="lg:h-[58px] font-bold text-[32px] md:text-5xl md:leading-[57px]">OUR HAPPY CUSTOMERS</h2>
         <div className="flex items-center md:items-end gap-3">
-          {/* <MoveLeft size={24} />
-          <MoveRight size={24} /> */}
+          <MoveLeft size={24} />
+          <MoveRight size={24} />
         </div>
       </div>
       <div className="flex justify-between m-auto mt-10 max-sm:overflow-scroll gap-5">
-        <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
+        <div className="border border-gray-300 rounded-[20px] py-7 px-8">
           <div className="flex mb-3">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          {/* <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Sarah M. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4> */}
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Sarah M. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">I am blown away by the quality and style of the clothes I received from Shop.co. From casual wear to elegant dresses, every piece I have bought has exceeded my expectations.</p>
         </div>
-        <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
+        <div className="border border-gray-300 rounded-[20px] py-7 px-8">
         <div className="flex mb-3">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          {/* <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Alex K. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4> */}
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">Alex K. <span><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">Finding clothes that align with my personal style used to be a challenge until I discovered Shop.co. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.</p>
         </div>
-        <div className="lg:h-[240px] border border-gray-300 rounded-[20px] py-7 px-8">
+        <div className="border border-gray-300 rounded-[20px] py-7 px-8">
         <div className="flex mb-3">
-          {/* <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-          <Star size={18.5} fill="#ffc633" color="#ffc633" /> */}
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+          <Star size={18.5} fill="#ffc633" color="#ffc633" />
           </div>
-          {/* <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">James L. <span className="ms-2"><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4> */}
+          <h4 className="font-bold md:text-xl leading-[22px] flex mb-3">James L. <span className="ms-2"><CircleCheck size={24} fill="#01ab31" color="white" /></span></h4>
           <p className="text-gray-600 font-normal text-sm md:text-base leading-[22px]">As someone who is always on the lookout for unique fashion pieces, I am thrilled to have stumbled upon Shop.co. The selection of clothes is not only diverse but also on-point with the latest trends.</p>
         </div>
       </div>

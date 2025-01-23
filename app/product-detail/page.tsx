@@ -9,10 +9,10 @@ import { Plus } from "lucide-react";
 import { ChevronDown } from "lucide-react"; 
 import { SlidersHorizontal } from "lucide-react";
 import { CircleCheck } from "lucide-react";
-import TopS1 from "@/public/new-arrival-1.png";
-import TopS2 from "@/public/new-arrival-1.png";
-import TopS3 from "@/public/new-arrival-1.png";
-import TopS4 from "@/public/new-arrival-1.png";
+import TopS1 from "@/public/sell1.png";
+import TopS2 from "@/public/sell2.png";
+import TopS3 from "@/public/sell3.png";
+import TopS4 from "@/public/product4.png";
 
 export default function ProductDetail() {
     return(
@@ -32,19 +32,19 @@ export default function ProductDetail() {
                 <section className="mb-5">
                     <div className="flex justify-between max-sm:flex-col">
                         <div className="w-full md:w-3/6 flex gap-5 md:p-5 max-sm:flex-col-reverse">
-                            <div className="flex md:flex-col justify-between gap-2">
+                            <div className="flex md:flex-col justify-between">
                                 <div className="md:w-[152px] md:h-[167px] bg-[#f0f0f0] rounded-2xl border-black border">
-                                    <Image src={NewA1} width={152} height={167} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
+                                    <Image src={NewA1} width={152} height={152} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
                                 </div>
                                 <div className="md:w-[152px] md:h-[167px] bg-[#f0f0f0] rounded-2xl">
-                                    <Image src={NewA1} width={152} height={167} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
+                                    <Image src={NewA1} width={152} height={152} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
                                 </div>
                                 <div className="md:w-[152px] md:h-[167px] bg-[#f0f0f0] rounded-2xl">
-                                    <Image src={NewA1} width={152} height={167} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
+                                    <Image src={NewA1} width={152} height={152} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
                                 </div>
                             </div>
                             <div className="md:w-[444px] md:h-[530px] bg-[#f0f0f0] flex items-center rounded-2xl">
-                                <Image src={NewA1} width={444} height={530} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
+                                <Image src={NewA1} width={444} height={550} alt="new-arrival-T-Shirt" className="rounded-2xl"/>
                             </div>
                         </div>
                         <div className="w-full md:w-3/6 md:p-5 max-sm:mt-5">
@@ -232,15 +232,15 @@ export default function ProductDetail() {
                         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$80</p>
                       </div>
                       <div>
-                        <Image src={TopS4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl md:h-[298px]"/>
-                        <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Faded Skinny Jeans</p>
+                        <Image src={TopS4} width={295} alt="new-arrival-T-Shirt" className="rounded-3xl"/>
+                        <p className="lg:text-xl font-bold leading-7 mt-2 md:mt-4">Loose Fit T-Shirt</p>
                         <div className="flex items-center mt-1 md:mt-2">
                           <Star size={18.5} fill="#ffc633" color="#ffc633" />
                           <Star size={18.5} fill="#ffc633" color="#ffc633" />
                           <Star size={18.5} fill="#ffc633" color="#ffc633" />
                           <Star size={18.5} fill="#ffc633" color="#ffc633" />
-                          <StarHalf size={18.5} fill="#ffc633" color="#ffc633" />
-                          <span>4.5/5</span>
+                          <Star size={18.5} fill="#ffc633" color="#ffc633" />
+                          <span>5/5</span>
                         </div>
                         <p className="lg:text-2xl font-bold leading-8 mt-1 md:mt-2">$210</p>
                       </div>
